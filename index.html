@@ -9,29 +9,31 @@
 </head>
 
 <body>
-    <div class="container-bp">
-        <div class="title clearfix">
-            <div class="name">
-                <i class="fa fa-stethoscope icons-margin"></i>Blood Pressure
+    <div style="width:375px;height:667px;left:25%;top:20%;position:absolute;">
+        <div class="container-bp">
+            <div class="title clearfix">
+                <div class="name">
+                    <i class="fa fa-stethoscope icons-margin"></i>Blood Pressure
+                </div>
+                <div class="icons">
+                    <i class="fa fa-circle-thin icons-margin icons-sm"></i>Normal
+                    <i class="fa fa-circle-thin icons-margin icons-sm icons-red"></i>Unnormal
+                </div>
             </div>
-            <div class="icons">
-                <i class="fa fa-circle-thin icons-margin icons-sm"></i>Normal
-                <i class="fa fa-circle-thin icons-margin icons-sm icons-red"></i>Unnormal
-            </div>
+            <div id="chart-bp" class='chart'></div>
         </div>
-        <div id="chart-bp" class='chart'></div>
-    </div>
-    <div class="container-bs">
-        <div class="title clearfix">
-            <div class="name">
-                <i class="fa fa-file-text-o icons-margin"></i>Blood Sugar
+        <div class="container-bs">
+            <div class="title clearfix">
+                <div class="name">
+                    <i class="fa fa-file-text-o icons-margin"></i>Blood Sugar
+                </div>
+                <div class="icons">
+                    <i class="fa fa-circle-thin icons-margin icons-sm"></i>Normal
+                    <i class="fa fa-circle-thin icons-margin icons-sm icons-red"></i>Unnormal
+                </div>
             </div>
-            <div class="icons">
-                <i class="fa fa-circle-thin icons-margin icons-sm"></i>Normal
-                <i class="fa fa-circle-thin icons-margin icons-sm icons-red"></i>Unnormal
-            </div>
+            <div id="chart-bs" class='chart'></div>
         </div>
-        <div id="chart-bs" class='chart'></div>
     </div>
     <script type='text/javascript' , src='js/jquery-2.1.4.min.js'></script>
     <script type='text/javascript' , src='js/highcharts.js'></script>
